@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:li" rel="stylesheet">
 		<meta charset="utf-8">
 		<title>Home</title>
 
@@ -42,9 +43,19 @@ body {
     background-image:url("images/shaq2.gif");
 }
 
+body {
+        font-family: 'Raleway', serif;
+      }
+
 img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+}
+
+div.relative {
+    position: relative;
+    left: 30px;
+    top: 700px;
 }
 
 @keyframes shake {
@@ -60,6 +71,16 @@ img:hover {
 	90% { transform: translate(1px, 2px) rotate(0deg); }
 	100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 175px;
+}
+
+
 	</style>
 	
 	</head>
@@ -70,7 +91,10 @@ img:hover {
 		<a href="Contact.html">Contact</a>
 	    <center><h1>Welcome to my Home Page</h1></center>
 	    <img src="images/shaq.gif" height = 10%, width = 10%>
-	    <left><p1>Hover over SHAQ</p1></left>
+	    <left><p1 style="color:white">Hover over Mini SHAQ</p1></left>
+	    <div class= "relative"><p1 style="color:white">Click Flag for secret link</p1></div>
+	   
+	   <div class="fixed"><a href="https://en.wikipedia.org/wiki/Canada" target="_blank"><img src="images/canadaflowing.gif"></a></div>
 		
 	  
 		<ul>
