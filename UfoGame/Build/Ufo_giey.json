@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "UFO Project",
+"dataUrl": "Ufo_giey.data.unityweb",
+"asmCodeUrl": "Ufo_giey.asm.code.unityweb",
+"asmMemoryUrl": "Ufo_giey.asm.memory.unityweb",
+"asmFrameworkUrl": "Ufo_giey.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
